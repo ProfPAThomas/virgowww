@@ -1,0 +1,102 @@
+img {
+	width:100%;
+	height:auto !important; /* or they look squished in carousel etc */ 
+}
+
+.main {
+	margin-top:60px;
+}
+
+.projimg {
+	margin-top:2em;
+}
+
+#VIRGO {
+	margin-top:2em;
+	width:100%;
+}
+
+.nav-sidebar li.active {
+	background-color:#006687; /* Because the Yeti theme doesn't do sidebars */
+}
+
+.nav-sidebar li.active a {
+	color:#FFF;
+}
+
+.masthead-brand {
+	width:auto;
+}
+
+.btn-group-justified {
+	padding:0; /* SO that the group lines up with the author/etc categories */
+}
+
+.instlogo {
+	padding-bottom:1em;
+}
+
+#project_carousel {
+    border:0.1em solid #909090;
+    margin-bottom:0; /* otherwise misalign with 'about' below */
+	overflow:hidden;
+}
+
+.item {
+	max-width:100%;
+	min-height:500px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+/* STICKY FOOTER */
+
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+/* Negative indent footer by it's height */
+	margin: 0 auto -3em;
+}
+
+/* Set the fixed height of the footer here */
+#push {
+	height:5em;
+}
+
+footer {
+	height: 3em;
+}
+
+footer {
+	background-color: #333333;
+	margin-top:6em;
+	font-size:13px;
+}
+
+footer p {
+	margin-top:0.75em; /* text is ~1.5em high */
+	color:white;
+}
+
+footer p a {
+	color:white;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+footer {
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}}
+
